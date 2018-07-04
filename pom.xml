@@ -9,7 +9,10 @@
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>collaboration-controller</module>
-        <module>collaboration-event-processor</module>
+        <module>collaboration-event-producer</module>
+        <module>collaboration-domain</module>
+        <module>collaboration-service</module>
+        <module>collaboration-main</module>
     </modules>
     <packaging>pom</packaging>
 
