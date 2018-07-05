@@ -9,12 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>collaboration-service</artifactId>
+    <artifactId>collaboration-repository</artifactId>
     <dependencies>
         <dependency>
             <groupId>com.cogoun</groupId>
             <artifactId>collaboration-domain</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>${project.parent.version}</version>
         </dependency>
     </dependencies>
 

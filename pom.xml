@@ -11,8 +11,8 @@
         <module>collaboration-controller</module>
         <module>collaboration-event-producer</module>
         <module>collaboration-domain</module>
-        <module>collaboration-service</module>
-        <module>collaboration-main</module>
+        <module>collaboration-repository</module>
+        <module>collaboration-rest-server</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -52,14 +52,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

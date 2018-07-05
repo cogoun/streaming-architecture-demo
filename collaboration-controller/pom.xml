@@ -14,14 +14,13 @@
         <dependency>
             <groupId>com.cogoun</groupId>
             <artifactId>collaboration-domain</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>${project.parent.version}</version>
         </dependency>
         <dependency>
             <groupId>com.cogoun</groupId>
-            <artifactId>collaboration-service</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <artifactId>collaboration-repository</artifactId>
+            <version>${project.parent.version}</version>
         </dependency>
     </dependencies>
-
 
 </project>
