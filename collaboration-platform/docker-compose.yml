@@ -40,7 +40,7 @@ services:
         ports:
           - "8080:8080"
         volumes:
-          - "collaboration-rest-server_data:/opt/applications"
+          - "collaboration-rest-server_logs:/opt/applications/logs"
         depends_on:
           - redis
           - kafka
@@ -50,5 +50,5 @@ volumes:
       driver: local
     kafka_data:
       driver: local
-    collaboration-rest-server_data:
+    collaboration-rest-server_logs:
       driver: local
