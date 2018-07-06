@@ -9,22 +9,22 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>collaboration-controller</artifactId>
+    <artifactId>collaboration-event-consumer</artifactId>
+
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+        </dependency>
         <dependency>
             <groupId>com.cogoun</groupId>
             <artifactId>collaboration-domain</artifactId>
-            <version>${project.parent.version}</version>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.cogoun</groupId>
-            <artifactId>collaboration-repository</artifactId>
-            <version>${project.parent.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.cogoun</groupId>
-            <artifactId>collaboration-event-producer</artifactId>
-            <version>${project.parent.version}</version>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
         </dependency>
     </dependencies>
 

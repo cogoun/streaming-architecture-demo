@@ -8,10 +8,11 @@ by utilising an event bus [Kafka](http://kafka.apache.org/).
 - the use of a database such as [Redis](https://redis.io/) to keep the latest instance of an application.
 - to demonstrate the implementation of [CQRS](https://martinfowler.com/bliki/CQRS.html).
 
-The application will be implemented with [Spring Boot](https://spring.io/projects/spring-boot).
-
-Docker will be used in order to setup and provision all the necessary images. Refer [here](collaboration-platform/REEADME.md) for more
+Besides the streaming architecture the application will also demonstrate the following concepts:
+- The application will be implemented with [Spring Boot](https://spring.io/projects/spring-boot).
+- Docker will be used in order to setup and provision all the necessary images. Refer [here](collaboration-platform/README.md) for more
 information.
+- The user interface will be based on Angular JS.
 
 Architecture details can be found [here](collaboration-docs/architecture/sad.md). Architecture is
 captured using the C4 model.
