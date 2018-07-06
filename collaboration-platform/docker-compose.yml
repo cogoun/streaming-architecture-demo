@@ -36,7 +36,7 @@ services:
   collaboration-rest-server:
         build:
           context: ..
-          dockerfile: collaboration-platform/springapp.dockerfile
+          dockerfile: collaboration-platform/collaboration-rest-server.dockerfile
         ports:
           - "8080:8080"
         volumes:
