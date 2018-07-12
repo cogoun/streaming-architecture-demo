@@ -10,6 +10,7 @@
     <modules>
         <module>collaboration-controller</module>
         <module>collaboration-event-producer</module>
+        <module>collaboration-event-consumer</module>
         <module>collaboration-domain</module>
         <module>collaboration-repository</module>
         <module>collaboration-rest-server</module>

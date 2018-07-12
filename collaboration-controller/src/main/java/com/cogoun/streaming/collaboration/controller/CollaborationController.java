@@ -67,11 +67,7 @@ public class CollaborationController {
                 .orElseThrow(() -> new CollaborationNotFoundException(collaborationId));
     }
 
-    private Collaboration emptyCollaboration() {
-        Collaboration collaboration = new Collaboration();
-        collaboration.setId(0);
-        return collaboration;
-    }
+
 
 
 }

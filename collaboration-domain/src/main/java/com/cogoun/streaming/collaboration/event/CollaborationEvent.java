@@ -52,5 +52,12 @@ public class CollaborationEvent {
             event.setId(collaboration.getId());
             return event;
         }
+
+        public static Collaboration from(CollaborationEvent collaborationEvent) {
+            Collaboration collaboration = new Collaboration();
+            collaboration.setSubject(collaborationEvent.getSubject());
+            collaboration.setId(collaboration.getId());
+            return collaboration;
+        }
     }
 }
